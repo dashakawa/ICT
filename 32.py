@@ -1,0 +1,5 @@
+s = input().split()
+a = int(s[0])
+b = int(s[1])
+c = int(s[2])
+print(min(min(a, b), c), ((a + b + c) - max(max(a,b), c) - min(min(a, b), c) ), max(max(a,b), c) )
